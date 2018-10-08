@@ -52,7 +52,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 9);
+            this.label1.Location = new System.Drawing.Point(42, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(302, 20);
@@ -62,17 +62,17 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(64, 72);
+            this.label2.Location = new System.Drawing.Point(27, 49);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 18);
+            this.label2.Size = new System.Drawing.Size(120, 18);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Score:";
+            this.label2.Text = "Enter new score:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 109);
+            this.label3.Location = new System.Drawing.Point(27, 104);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 18);
@@ -82,7 +82,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(19, 143);
+            this.label4.Location = new System.Drawing.Point(27, 170);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(93, 18);
@@ -92,7 +92,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(46, 179);
+            this.label5.Location = new System.Drawing.Point(27, 223);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(65, 18);
@@ -102,7 +102,7 @@
             // lbl_ScoreTotal
             // 
             this.lbl_ScoreTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl_ScoreTotal.Location = new System.Drawing.Point(139, 108);
+            this.lbl_ScoreTotal.Location = new System.Drawing.Point(30, 131);
             this.lbl_ScoreTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_ScoreTotal.Name = "lbl_ScoreTotal";
             this.lbl_ScoreTotal.Size = new System.Drawing.Size(80, 32);
@@ -111,7 +111,7 @@
             // lbl_ScoreCount
             // 
             this.lbl_ScoreCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl_ScoreCount.Location = new System.Drawing.Point(139, 143);
+            this.lbl_ScoreCount.Location = new System.Drawing.Point(30, 191);
             this.lbl_ScoreCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_ScoreCount.Name = "lbl_ScoreCount";
             this.lbl_ScoreCount.Size = new System.Drawing.Size(80, 32);
@@ -120,7 +120,7 @@
             // lbl_Average
             // 
             this.lbl_Average.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl_Average.Location = new System.Drawing.Point(139, 178);
+            this.lbl_Average.Location = new System.Drawing.Point(30, 244);
             this.lbl_Average.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Average.Name = "lbl_Average";
             this.lbl_Average.Size = new System.Drawing.Size(80, 32);
@@ -128,7 +128,7 @@
             // 
             // btn_Add
             // 
-            this.btn_Add.Location = new System.Drawing.Point(245, 68);
+            this.btn_Add.Location = new System.Drawing.Point(242, 46);
             this.btn_Add.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Add.Name = "btn_Add";
             this.btn_Add.Size = new System.Drawing.Size(111, 32);
@@ -139,7 +139,7 @@
             // 
             // txt_Score
             // 
-            this.txt_Score.Location = new System.Drawing.Point(139, 68);
+            this.txt_Score.Location = new System.Drawing.Point(155, 46);
             this.txt_Score.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Score.Name = "txt_Score";
             this.txt_Score.Size = new System.Drawing.Size(79, 24);
@@ -147,10 +147,10 @@
             // 
             // btn_SortedScores
             // 
-            this.btn_SortedScores.Location = new System.Drawing.Point(25, 280);
+            this.btn_SortedScores.Location = new System.Drawing.Point(207, 290);
             this.btn_SortedScores.Margin = new System.Windows.Forms.Padding(4);
             this.btn_SortedScores.Name = "btn_SortedScores";
-            this.btn_SortedScores.Size = new System.Drawing.Size(194, 32);
+            this.btn_SortedScores.Size = new System.Drawing.Size(169, 32);
             this.btn_SortedScores.TabIndex = 10;
             this.btn_SortedScores.Text = "Display &Sorted Scores";
             this.btn_SortedScores.UseVisualStyleBackColor = true;
@@ -159,7 +159,7 @@
             // btn_ClearScores
             // 
             this.btn_ClearScores.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btn_ClearScores.Location = new System.Drawing.Point(245, 240);
+            this.btn_ClearScores.Location = new System.Drawing.Point(242, 144);
             this.btn_ClearScores.Margin = new System.Windows.Forms.Padding(4);
             this.btn_ClearScores.Name = "btn_ClearScores";
             this.btn_ClearScores.Size = new System.Drawing.Size(111, 32);
@@ -171,7 +171,7 @@
             // btn_Exit
             // 
             this.btn_Exit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btn_Exit.Location = new System.Drawing.Point(245, 280);
+            this.btn_Exit.Location = new System.Drawing.Point(242, 184);
             this.btn_Exit.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(111, 32);
@@ -183,7 +183,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(242, 104);
+            this.label6.Location = new System.Drawing.Point(143, 123);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 18);
@@ -193,7 +193,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(242, 157);
+            this.label7.Location = new System.Drawing.Point(143, 176);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(82, 18);
@@ -203,7 +203,7 @@
             // lbl_MinScore
             // 
             this.lbl_MinScore.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl_MinScore.Location = new System.Drawing.Point(245, 125);
+            this.lbl_MinScore.Location = new System.Drawing.Point(146, 144);
             this.lbl_MinScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_MinScore.Name = "lbl_MinScore";
             this.lbl_MinScore.Size = new System.Drawing.Size(64, 32);
@@ -212,7 +212,7 @@
             // lbl_MaxScore
             // 
             this.lbl_MaxScore.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl_MaxScore.Location = new System.Drawing.Point(245, 178);
+            this.lbl_MaxScore.Location = new System.Drawing.Point(146, 197);
             this.lbl_MaxScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_MaxScore.Name = "lbl_MaxScore";
             this.lbl_MaxScore.Size = new System.Drawing.Size(64, 32);
@@ -220,10 +220,10 @@
             // 
             // btn_UnsortedList
             // 
-            this.btn_UnsortedList.Location = new System.Drawing.Point(25, 240);
+            this.btn_UnsortedList.Location = new System.Drawing.Point(17, 290);
             this.btn_UnsortedList.Margin = new System.Windows.Forms.Padding(4);
             this.btn_UnsortedList.Name = "btn_UnsortedList";
-            this.btn_UnsortedList.Size = new System.Drawing.Size(194, 32);
+            this.btn_UnsortedList.Size = new System.Drawing.Size(182, 32);
             this.btn_UnsortedList.TabIndex = 17;
             this.btn_UnsortedList.Text = "Display &Unsorted Scores";
             this.btn_UnsortedList.UseVisualStyleBackColor = true;
@@ -235,7 +235,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btn_Exit;
-            this.ClientSize = new System.Drawing.Size(395, 330);
+            this.ClientSize = new System.Drawing.Size(387, 358);
             this.Controls.Add(this.btn_UnsortedList);
             this.Controls.Add(this.lbl_MaxScore);
             this.Controls.Add(this.lbl_MinScore);
@@ -259,6 +259,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Score Data App";
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
