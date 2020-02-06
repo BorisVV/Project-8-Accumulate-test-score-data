@@ -19,14 +19,14 @@ namespace AccumulateTestScoreData
             else if (!Int32.TryParse(txtBox.Text, out number))
             {
                 //Checks if not an integer a messaged pops.
-                MessageBox.Show("The '" + name + "' field needs to be a number", "Empty Error.");
+                MessageBox.Show("The '" + name + "' field needs to be a whole number (integer)", "Not an integer.");
                 txtBox.Text = String.Empty;
                 txtBox.Focus();
                 return false;
             }
             else if (number < 0 || number > 100)
             {   //Checks for out of range numbers.
-                System.Windows.Forms.MessageBox.Show("The '" + name + "' field can only accept whole numbers \nBetween 1 and 100.", "Empty Error.");
+                System.Windows.Forms.MessageBox.Show("The '" + name + "' field can only accept whole numbers \nBetween 1 and 100.", "Check the number!");
                 txtBox.Text = String.Empty;
                 txtBox.Focus();
                 return false;

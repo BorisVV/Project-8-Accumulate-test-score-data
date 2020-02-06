@@ -113,6 +113,11 @@ namespace AccumulateTestScoreData
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         //End of public partial class Form1 : Form
     }
 } 
